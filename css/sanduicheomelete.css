@@ -4,6 +4,12 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 10px 0 5px;
+}
 
 .titulo{
     background-color: #d8d0c3;
@@ -22,6 +28,7 @@ body{
     right: 50px;
     position: absolute;
     margin-top: -70px;
+
 }
 
 .conteudo{
