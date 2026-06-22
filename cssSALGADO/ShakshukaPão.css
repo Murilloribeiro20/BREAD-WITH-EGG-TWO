@@ -7,7 +7,7 @@ body{
 
 .titulo{
     background-color: #d8d0c3;
-    width: 260px;
+    width: 500px;
     text-align: center;
     padding: 8px;
     border-radius: 15px;
@@ -17,11 +17,11 @@ body{
 }
 
 .logo{
-    width: 250px;
+    width: 280px;
     display:flex;
     right: 50px;
     position: absolute;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 .conteudo{
@@ -56,7 +56,7 @@ body{
 }
 
 .foto{
-    width: 600px;
+    width: 700px;
     height: 500px;
     margin-top: 180px;
     border-radius: 10px;
