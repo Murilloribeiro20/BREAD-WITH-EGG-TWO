@@ -149,16 +149,34 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 .botoes{
     display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+.botoes input{
+    display: none;
 }
 
-.botoes button{
-    width: 80px;
-    height: 50px;
-    font-size: 30px;
-    background-color: #fdfcfc;
-    cursor: pointer;
+.botoes label{
+    display: inline-block;
+    width: 150px;
+    height: 100px;  
+    text-align: center;
+    font-size: 70px;
+    background-color: white;
     border-radius: 60px;
-    right: 100%;
+    cursor: pointer;
+    margin-left:auto;
+}
+
+#like:checked + label{
+    background-color: green;
+    color: white;
+}
+
+#dislike:checked + label{
+    background-color: red;
+    color: white;
 }

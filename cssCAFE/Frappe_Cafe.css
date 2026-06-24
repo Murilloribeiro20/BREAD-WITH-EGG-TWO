@@ -32,27 +32,27 @@ body{
 }
 
 .texto{
-    width: 40%;
+    width: 50%;
 }
 
 .texto h2{
-    font-size: 27px;
+    font-size: 30px;
     margin: 0;
 }
 
 .texto ul{
     margin-top: 0;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .texto ol{
     margin-top: 0;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .texto p{
     margin-top: 0;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .foto{
@@ -61,3 +61,4 @@ body{
     margin-top: 180px;
     border-radius: 10px;
 }
+
