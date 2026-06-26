@@ -1,60 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Fale Conosco</title>
     <link rel="stylesheet" href="../cssContato/contato.css">
     <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\Aluno\Downloads\egg.png">
 </head>
 
 <body>
     <header>
-    <a href="../PAGINA INICIAL/index.html"><img src="C:\Users\Aluno\Desktop\BREAD WITH EGG TWO\imagens\pãocomovo2.png" alt="Pão com Ovo" class="logo"></a>
+
+        <div class="logo">
+            <img src="../imagens/pãocomovo2.png" style="width: 200px; ">
+        </div>
 
         <nav>
-            <a href="../PAGINA INICIAL/index.html">INICIO</a>
-            <a href="../Receitas Salgadas/receitassalgadas.html">RECEITAS SALGADAS</a>
-            <a href="../Receitas Doces/receitasdoces.html">RECEITAS DOCES</a>
-            <a href="../Receitas Café/receitascafe.html">RECEITAS DE CAFÉ</a>
-            <a href="../Pagina Contato/contato.html">CONTATO</a>
-            <a href="#sugestão de café">SUGESTÃO DE CAFÉ</a>
-
-
+            <a href="../PAGINA INICIAL/index.html">Inicio</a>
+            <a href="../Receitas Salgadas/receitassalgadas.html">Receitas Salgadas</a>
+            <a href="../Receitas Doces/receitasdoces.html">Receitas Doces</a>
+            <a href="../Receitas Café/receitascafe.html">Receitas de Café</a>
+            <a href="../">Sugestão de Cafés</a>
         </nav>
-        <button link="../Pagina Todas_Receitas/Todas_Receitas.html" class="btn">TODAS AS RECEITAS</button>
+        <button class="btn">
+            <a href="../HTML.Todas as receitas/Todas as receitas.html">Todas as Receitas</a>
+        </button>
     </header>
-    <main>
+    <section class="titulo">
 
-        <section class="contato">
+        <h1>Fale Conosco:</h1>
+        <h2>Estamos aqui para você!</h2>
 
-            <div class="formulario">
+    </section>
+
+    <section>
+
+        <div>
+            <hr
+                style="border: none; height: 20px; background-color: #b9aeae; margin-top: 0px; margin-bottom: 0; box-shadow: 0px -3px 10px #000000;">
+        </div>
+
+    </section>
+    <section class="container">
+
+        <div class="formulario">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7e798bba-73ac-4762-a1bd-4846a0586492">
+                <input type="hidden" name="subject" value="Nova mensagem do site!">
+                <label>Seu Nome</label>
+                <input type="text" name="name" required>
+                <label>Seu E-mail</label>
+                <input type="email" name="email" required>
+                <label>Sua Mensagem</label>
+                <textarea rows="6" name="message" required></textarea>
+                <button class="btn-enviar" type="submit">ENVIAR</button>
 
 
 
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="359e6aed-5361-413c-9a03-11e55ba2cff8">
-                    <input type="hidden" name="subject" value="Nova mensagem do site!">
-                    <label>Seu Nome</label>
-                    <input type="text" name="name" required>
-                    <label>Seu E-mail</label>
-                    <input type="email" name="email" required>
-                    <label>Sua Mensagem</label>
-                    <textarea rows="6" name="message" required></textarea>
-                    <button class="btn-enviar" type="submit">ENVIAR</button>
-
-
-
-                </form>
-
-
-
-            </div>
             </form>
-            </div>
 
-            <div class="lado-direito"></div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="lado-direito">
+            <img src="../imagens/jaquinho.png" alt="Chef" class="chef">
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <hr style="border: none; height: 20px; background-color: #b9aeae; margin-top: 0px; margin-bottom: 0; box-shadow: 0px 3px 10px #000000 ;">
+        </div>
+
+    </section>
+
+    <footer>
+
+    <img src="../imagens/cozinha.png" alt="Cozinha" class="cozinha">
+
+        <h2>Um Pedaço da Nossa História</h2>
+    </footer>
+
 
 </body>
 

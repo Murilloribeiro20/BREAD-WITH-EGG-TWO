@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 225, 190);
     margin: 0;
+
 }
 
 header{
@@ -180,3 +181,29 @@ p{
     background-color: red;
     color: white;
 }
+.btn:hover {
+transform: translateY(-5px);
+}
+.btn a{
+color:white;
+text-decoration:none;
+}
+
+.btn{
+background:#B25B2D;
+color:white;
+border:none;
+border-radius:20px;
+cursor:pointer;
+box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+font-size:25px;
+
+}
+
+.btn{
+text-decoration: none;
+transition: 0.3s;
+}
+
+
+
