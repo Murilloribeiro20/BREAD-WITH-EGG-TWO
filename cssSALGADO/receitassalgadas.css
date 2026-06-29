@@ -25,11 +25,29 @@ nav a{
 }
 
 .btn{
-    padding: 10px 20px;
-    background-color: #d46c03;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+background:#B25B2D;
+color:white;
+border:none;
+border-radius:20px;
+cursor:pointer;
+box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+font-size:22px;
+height:60px;
+
+}
+
+.btn{
+text-decoration: none;
+transition: 0.3s;
+}
+
+.btn:hover {
+transform: translateY(-5px);
+}
+
+.btn a{
+color:white;
+text-decoration:none;
 }
 .titulo{
     background-color: #bb9a84;
